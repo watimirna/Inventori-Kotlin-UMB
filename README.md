@@ -28,7 +28,6 @@ InventoriToko-Kotlin-UMB adalah aplikasi Android berbasis Kotlin yang berfungsi 
    - Input Email dan Password
    - Jika Berhasil:
      - Arahkan ke halaman MainActivity
-     - Tampilkan pesan: Selamat Datang, [Nama User]
 - Jika Gagal:
   - Tampilkan pesan error
 - Fitur Tambahan:
@@ -67,13 +66,15 @@ InventoriToko-Kotlin-UMB adalah aplikasi Android berbasis Kotlin yang berfungsi 
 ![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/Password%20kurang%20dari%206%20karakter.png?raw=true)
 ## ✅Login Berhasil
 ![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/Login%20Berhasil.png?raw=true)
+
+
 ## 🛠️ Tools & Teknologi
 
-- Java
-- XML Layouts
-- Android Studio
-- SQLite
-- Toast & Intent handling
+- Bahasa Pemrograman: Kotlin
+- Database: SQLite / Room
+- IDE: Android Studio
+- Desain UI: XML Layout
+- Arsitektur: MVVM (jika digunakan)
 
 ---
 
