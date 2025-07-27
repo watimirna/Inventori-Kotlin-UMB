@@ -57,15 +57,15 @@ InventoriToko-Kotlin-UMB adalah aplikasi Android berbasis Kotlin yang berfungsi 
  
 ---
 ## 📱Tampilan Login 
-![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/login.png?raw=true)
+![alt text](https://github.com/watimirna/Inventori-Kotlin-UMB/blob/master/Gambar/login.jpeg?raw=true)
 ## 📲Tampilan Register
-![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/Register.png?raw=true)
-## 📵Login Gagal
-![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/Login%20Gagal.png?raw=true)
-## ⛔Password kurang dari 6 karakter
-![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/Password%20kurang%20dari%206%20karakter.png?raw=true)
-## ✅Login Berhasil
-![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/Login%20Berhasil.png?raw=true)
+![alt text](https://github.com/watimirna/Inventori-Kotlin-UMB/blob/master/Gambar/Register.jpeg?raw=true)
+## 📦Tampilan List Barang/Tampilan Menu
+![alt text](https://github.com/watimirna/Inventori-Kotlin-UMB/blob/master/Gambar/Tampilan%20Menu.jpeg?raw=true)
+## 🛒Tampilan Keranjang
+![alt text](https://github.com/watimirna/Inventori-Kotlin-UMB/blob/master/Gambar/Tampilan%20Keranjang.jpeg?raw=true)
+## ✅Pembelian/Pembayaran Berhasil
+![alt text](https://github.com/watimirna/Inventori-Kotlin-UMB/blob/master/Gambar/Pembayaran%20Sukses.jpegraw=true)
 
 
 ## 🛠️ Tools & Teknologi
