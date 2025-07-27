@@ -10,29 +10,14 @@ InventoriToko-Kotlin-UMB adalah aplikasi Android berbasis Kotlin yang berfungsi 
 
 * **Tampil Data Inventori**
 * **Login & Register**
-* **Navigasi antar halaman**
-* **Pengelolaan data menggunakan HTTP REST API**
+* **Halaman List Barang**
+* **Keranjang dan Pembelian Berhasil**
 
 
 
 ---
 
-## 🚀 Fitur
 
-
----
-
-* **Register dengan Nama, Email, Kata Sandi, dan Konfirmasi Kata Sandi**
-* **Login menggunakan Email dan Kata Sandi yang sudah didaftarkan**
-* **Validasi input:**
-
-  * Format email harus valid
-  * Kata sandi minimal 6 karakter
-  * Kata sandi dan konfirmasi harus sama
-* **Simpan data pengguna secara lokal menggunakan SQLite**
-* **Tampilkan pesan sambutan dengan nama pengguna setelah login**
-
----
 
 ## 🧭 Alur Aplikasi
 
@@ -40,35 +25,37 @@ InventoriToko-Kotlin-UMB adalah aplikasi Android berbasis Kotlin yang berfungsi 
    - Langsung menampilkan halaman Login.
 
 2. **Login**
-   - User mengisi Email dan Password
-   - Validasi:
-     - Format email harus valid
-     - Password minimal 6 karakter
-   - Jika login sukses:
+   - Input Email dan Password
+   - Jika Berhasil:
      - Arahkan ke halaman MainActivity
-     - Tampilkan: `Selamat Datang, [Nama User]`
-   - Jika gagal:
-     - Tampilkan pesan error
-   - Tersedia tombol untuk berpindah ke halaman Register
+     - Tampilkan pesan: Selamat Datang, [Nama User]
+- Jika Gagal:
+  - Tampilkan pesan error
+- Fitur Tambahan:
+  - Tombol untuk menuju halaman Register
 
 3. **Register**
-   - User mengisi:
+   - Input:
      - Nama
      - Email
      - Password
-     - Konfirmasi Password
-   - Validasi:
-     - Semua input harus diisi
-     - Email harus valid
-     - Password dan konfirmasi minimal 6 karakter dan harus cocok
-     - Email belum pernah digunakan
-   - Jika valid:
-     - Simpan data ke SQLite
-     - Arahkan ke halaman Login
 
-4. **MainActivity**
-   - Menampilkan pesan: `Selamat Datang, [Nama User]`
+4. **List Barang**
+   - Menampilkan daftar barang yang tersedia
+   - User dapat memilih produk
+     
+5. **Keranjang**
+   - Produk yang dipilih ditambahkan ke keranjang
+     - Menampilkan:
+       - Nama produk
+       - Jumlah
+       - Total harga
+       - Tombol "Bayar" tersedia
 
+6. **Pembayaran Sukses**
+   - Setelah klik bayar, muncul:
+     - Pembayaran Sukses
+ 
 ---
 ## 📱Tampilan Login 
 ![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/login.png?raw=true)
