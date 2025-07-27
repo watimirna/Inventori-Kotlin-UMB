@@ -65,7 +65,7 @@ InventoriToko-Kotlin-UMB adalah aplikasi Android berbasis Kotlin yang berfungsi 
 ## 🛒Tampilan Keranjang
 ![alt text](https://github.com/watimirna/Inventori-Kotlin-UMB/blob/master/Gambar/Tampilan%20Keranjang.jpeg?raw=true)
 ## ✅Pembelian/Pembayaran Berhasil
-![alt text](https://github.com/watimirna/Inventori-Kotlin-UMB/blob/master/Gambar/Pembayaran%20Sukses.jpegraw=true)
+![alt text](https://github.com/watimirna/Inventori-Kotlin-UMB/blob/master/Gambar/Pembayaran%20Sukses.jpeg?raw=true)
 
 
 ## 🛠️ Tools & Teknologi
