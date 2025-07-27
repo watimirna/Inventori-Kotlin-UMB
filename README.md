@@ -1,11 +1,105 @@
-InventoriToko-Kotlin-UMB
-📱 Deskripsi Aplikasi
+## Nama : Mirnawati 
+## Nim  : 220220026
+## Universitas Muhammadiyah Banten 
+
+
+#  InventoriToko-Kotlin-UMB
+# 📱  Deskripsi Aplikasi
+
 InventoriToko-Kotlin-UMB adalah aplikasi Android berbasis Kotlin yang berfungsi sebagai sistem manajemen inventori toko. Aplikasi ini dikembangkan menggunakan Android Studio dan diuji pada emulator Android. Fitur utama dari aplikasi ini meliputi:
 
-Tampil Data Inventori
+*Tampil Data Inventori
+*Login & Register
+*Navigasi antar halaman
+*Pengelolaan data menggunakan HTTP REST API
 
-Login & Register
 
-Navigasi antar halaman
 
-Pengelolaan data menggunakan HTTP REST API
+---
+
+## 🚀 Fitur
+
+
+---
+
+* **Register dengan Nama, Email, Kata Sandi, dan Konfirmasi Kata Sandi**
+* **Login menggunakan Email dan Kata Sandi yang sudah didaftarkan**
+* **Validasi input:**
+
+  * Format email harus valid
+  * Kata sandi minimal 6 karakter
+  * Kata sandi dan konfirmasi harus sama
+* **Simpan data pengguna secara lokal menggunakan SQLite**
+* **Tampilkan pesan sambutan dengan nama pengguna setelah login**
+
+---
+
+## 🧭 Alur Aplikasi
+
+1. **Aplikasi Dibuka**
+   - Langsung menampilkan halaman Login.
+
+2. **Login**
+   - User mengisi Email dan Password
+   - Validasi:
+     - Format email harus valid
+     - Password minimal 6 karakter
+   - Jika login sukses:
+     - Arahkan ke halaman MainActivity
+     - Tampilkan: `Selamat Datang, [Nama User]`
+   - Jika gagal:
+     - Tampilkan pesan error
+   - Tersedia tombol untuk berpindah ke halaman Register
+
+3. **Register**
+   - User mengisi:
+     - Nama
+     - Email
+     - Password
+     - Konfirmasi Password
+   - Validasi:
+     - Semua input harus diisi
+     - Email harus valid
+     - Password dan konfirmasi minimal 6 karakter dan harus cocok
+     - Email belum pernah digunakan
+   - Jika valid:
+     - Simpan data ke SQLite
+     - Arahkan ke halaman Login
+
+4. **MainActivity**
+   - Menampilkan pesan: `Selamat Datang, [Nama User]`
+
+---
+## 📱Tampilan Login 
+![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/login.png?raw=true)
+## 📲Tampilan Register
+![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/Register.png?raw=true)
+## 📵Login Gagal
+![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/Login%20Gagal.png?raw=true)
+## ⛔Password kurang dari 6 karakter
+![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/Password%20kurang%20dari%206%20karakter.png?raw=true)
+## ✅Login Berhasil
+![alt text](https://github.com/watimirna/Pemograman4_UMB/blob/master/gambar/Login%20Berhasil.png?raw=true)
+## 🛠️ Tools & Teknologi
+
+- Java
+- XML Layouts
+- Android Studio
+- SQLite
+- Toast & Intent handling
+
+---
+
+## 📦 Cara Menjalankan
+
+1. Clone atau download project ini
+2. Buka dengan **Android Studio**
+3. Jalankan di emulator atau perangkat fisik
+4. Lakukan proses register, lalu login
+
+---
+
+## 📄 License
+
+This project is intended for educational purposes and open for learning or improvement.
+
